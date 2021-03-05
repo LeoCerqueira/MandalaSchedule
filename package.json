@@ -1,0 +1,16 @@
+{
+  "name": "MandalaScheduleApp",
+  "version": "1.0.0",
+  "description": "Back end da agenda",
+  "main": "server.js",
+  "repository": "https://github.com/LeoCerqueira/MandalaSchedule.git",
+  "author": "Leandro",
+  "license": "MIT",
+  "scripts":{"start":"node server.js"},  
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "date-format-lite": "^17.7.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
+}
